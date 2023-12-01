@@ -1,11 +1,7 @@
-
-
 DIGITS_N: list = [str(x) for x in range(10)]
 DIGITS_W: list = ["zero","one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 DIGITS_WTN: dict = {v:i for i,v in enumerate(DIGITS_W)}
 DIGITS: list = DIGITS_W + DIGITS_N
-
-
 
 def main():
     with(open("input", mode="r") as f):
